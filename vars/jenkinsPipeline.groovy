@@ -2,7 +2,7 @@ def call() {
     pipeline {
 
         agent {
-            label 'built-in'
+            label 'main'
         }
         stages {
             stage('Test1') {
