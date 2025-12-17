@@ -7,7 +7,7 @@ def call() {
         stages {
             stage('Test1') {
                 steps {
-                    sh("sleep 5")
+                    sh("sleep 300")
                 }
             }
         }
