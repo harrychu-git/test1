@@ -11,11 +11,6 @@ def call() {
                 }
             }
         }
-        post {
-            success {
-                cleanWs()
-            }
-        }
     }
 }
 
